@@ -11,5 +11,7 @@ public class Circular_Access {
 		c.insertAtLast(777);
 		c.insertAtLast(500);
 		c.display();
+		c.deleteAtBegin();
+		c.display();
 	}
 }
