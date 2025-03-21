@@ -62,7 +62,9 @@ public class Circular_Linked_List {
 			}
 		public void deleteAtBegin(int v)
 		{
-			
+		Node temp=last.next;
+		last.next=last.next.next;
+		temp.next=null;
 		}
 
 		}
