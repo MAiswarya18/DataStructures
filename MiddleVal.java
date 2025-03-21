@@ -46,8 +46,6 @@ public class MiddleVal {
 	    public void display() {
 	        Node temp = head;
 	        if (temp == null) {
-	            System.out.println("The list is empty.");
-	            return;
 	        }
 	        while (temp != null) {
 	            System.out.print(temp.data + " ");
