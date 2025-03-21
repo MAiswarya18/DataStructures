@@ -1,11 +1,7 @@
-package day2;
+package DataStructure;
 
 public class LinkedListRev {
-
-
-	    Node head;
-
-	    
+	Node head; 
 	    static class Node {
 	        int data;
 	        Node next;
@@ -69,8 +65,6 @@ public class LinkedListRev {
 
 	        System.out.println("Original Linked List:");
 	        list.printList();
-
-	        // Reverse the linked list
 	        list.reverse();
 
 	        System.out.println("Reversed Linked List:");
